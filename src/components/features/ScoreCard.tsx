@@ -36,8 +36,8 @@ export const ScoreCard = ({ title, score, description, trend, details }: ScoreCa
               {score}
             </div>
             <div className="flex flex-col space-y-1">
-              <Badge variant={scoreColor as any}>
-                {scoreEmoji} {scoreLabel}
+              <Badge variant={scoreColor as 'success' | 'primary' | 'warning' | 'danger'}>
+                <span className="text-current">{scoreEmoji}</span> {scoreLabel}
               </Badge>
             </div>
           </div>

@@ -11,6 +11,26 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
+    "/how-it-works/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/how-it-works/page.js"
+    ],
+    "/help/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/help/page.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/contact/page.js"
+    ],
+    "/pricing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pricing/page.js"
+    ],
     "/api/analyze/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

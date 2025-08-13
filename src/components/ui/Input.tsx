@@ -24,7 +24,7 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
   }, ref) => {
     const inputId = id || `input-${Math.random().toString(36).substr(2, 9)}`;
     
-    const baseClasses = 'w-full border rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-1 placeholder:text-gray-400';
+    const baseClasses = 'w-full border rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-1 text-gray-900 placeholder:text-gray-400';
     
     const variantClasses = {
       default: 'px-4 py-3 text-base',

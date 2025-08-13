@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/analyze/route": "/api/analyze",
+  "/contact/page": "/contact",
+  "/pricing/page": "/pricing",
+  "/page": "/",
+  "/help/page": "/help",
+  "/how-it-works/page": "/how-it-works",
+  "/privacy/page": "/privacy",
+  "/report/[id]/page": "/report/[id]",
+  "/terms/page": "/terms"
+}
